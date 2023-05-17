@@ -16,4 +16,5 @@ else()
     set(LASAN "") # no lasan lib is add in release mode
 endif()
 
-#----------- find the installed package --------------#
+add_subdirectory(test1)
+add_subdirectory(test2)
